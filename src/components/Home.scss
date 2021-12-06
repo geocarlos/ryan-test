@@ -4,11 +4,13 @@
     width: 100%;
     min-height: 100%;
     background-color: white;
-    background: url('../assets//images/MAX\ DESKTOP\ WEBPAGE\ no\ bubble-01\ 2.png');
+    // When using Next.js, it may be a good idea to use an img tag, positioned with z-index, so that 
+    // we can take advantage of the Image component provided by Next.js, which provides nice features, such as lazy loading.
+    background: url('../assets//images/MAX\ DESKTOP\ WEBPAGE\ no\ bubble-01\ 2.png'); 
     background-size: 100%;
     background-repeat: no-repeat;
 
-    max-width: 1900px;
+    max-width: 1300px;
     overflow: auto;
 
 }

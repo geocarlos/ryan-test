@@ -5,7 +5,6 @@
     font-family: Iceland;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.25rem;
     line-height: .125rem;
 
     text-align: center;
@@ -23,4 +22,12 @@
     color: #ffffff;
 
     cursor: pointer;
+}
+
+.medium-font-size {
+    font-size: 1.25rem;
+}
+
+.large-font-size {
+    font-size: 1.7rem;
 }

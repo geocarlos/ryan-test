@@ -1,6 +1,23 @@
 .speech-box {
+    position: relative;
     max-width: 33rem;
     background: #ffffff;
     height: fit-content;
-    padding: 0 1rem 1rem;
+    padding: 0 0.75rem 1rem;
+    line-height: 24px;
+    .box-tip {
+        position: absolute;
+        bottom: -1.5rem;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 5rem solid transparent;
+        border-bottom: 5rem solid transparent;
+        z-index: -1;
+
+        border-right: 60px solid #ffffff;
+    }
+    padding: {
+        z-index: 100;
+    }
 }

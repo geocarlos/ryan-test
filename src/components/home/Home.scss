@@ -1,16 +1,19 @@
 .home {
+    position: relative;
     display: flex;
     margin: auto;
     width: 100%;
+    height: 120%;
     min-height: 100%;
     background-color: white;
-    // When using Next.js, it may be a good idea to use an img tag, positioned with z-index, so that 
+    // When using Next.js, it may be a good idea to use an img tag, positioned with z-index, so that
     // we can take advantage of the Image component provided by Next.js, which provides nice features, such as lazy loading.
-    background: url('../assets//images/MAX\ DESKTOP\ WEBPAGE\ no\ bubble-01\ 2.png'); 
+    background: url("../../assets//images/MAX\ DESKTOP\ WEBPAGE\ no\ bubble-01\ 2.png");
     background-size: 100%;
     background-repeat: no-repeat;
 
     max-width: 1300px;
     overflow: auto;
 
+    z-index: 0;
 }

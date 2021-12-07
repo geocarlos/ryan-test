@@ -1,6 +1,10 @@
 .home {
     position: relative;
-    display: flex;
+    padding: 6rem 1%;
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: min-content;
     margin: auto;
     width: 100%;
     height: 120%;
@@ -13,7 +17,7 @@
     background-repeat: no-repeat;
 
     max-width: 1300px;
-    overflow: auto;
+    overflow: visible;
 
     z-index: 0;
 }
